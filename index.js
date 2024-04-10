@@ -295,6 +295,6 @@ app.get('/clientdata',  (req, res,) => {
   });
 
 
-app.listen(3002, '192.168.1.12', () => {
+app.listen(3002,() => {
     console.log("Server is listening on port 3002. Ready for connections.");
 });
